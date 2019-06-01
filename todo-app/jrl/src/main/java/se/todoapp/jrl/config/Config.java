@@ -31,9 +31,9 @@ import javax.persistence.EntityManagerFactory;
 
 			HikariConfig config = new HikariConfig();
 			config.setDriverClassName("com.mysql.cj.jdbc.Driver");
-			config.setJdbcUrl("jdbc:mysql://localhost:3306/shopping?serverTimezone=" + TimeZone.getDefault().getID());
-			config.setUsername("root");
-			config.setPassword("hagohago666");
+			config.setJdbcUrl("jdbc:mysql://localhost:3306/DB-NAME?serverTimezone=" + TimeZone.getDefault().getID());
+			config.setUsername("login");
+			config.setPassword("password");
 
 			return new HikariDataSource(config);
 		}
