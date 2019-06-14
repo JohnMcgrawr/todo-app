@@ -1,2 +1,7 @@
 C:\todo-app\jrl\src\main\java\se\todoapp\jrl\JrlApplication.java
+C:\todo-app\jrl\src\main\java\se\todoapp\jrl\service\ServiceTransaction.java
+C:\todo-app\jrl\src\main\java\se\todoapp\jrl\repository\GroceryItemsRepository.java
 C:\todo-app\jrl\src\main\java\se\todoapp\jrl\config\Config.java
+C:\todo-app\jrl\src\main\java\se\todoapp\jrl\service\ServiceException.java
+C:\todo-app\jrl\src\main\java\se\todoapp\jrl\service\GroceryItemService.java
+C:\todo-app\jrl\src\main\java\se\todoapp\jrl\model\GroceryItems.java

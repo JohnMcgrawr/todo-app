@@ -1,0 +1,8 @@
+se\todoapp\jrl\model\GroceryItems.class
+se\todoapp\jrl\service\ServiceTransaction.class
+se\todoapp\jrl\service\ServiceTransaction$Action.class
+se\todoapp\jrl\repository\GroceryItemsRepository.class
+se\todoapp\jrl\service\GroceryItemService.class
+se\todoapp\jrl\config\Config.class
+se\todoapp\jrl\service\ServiceException.class
+se\todoapp\jrl\JrlApplication.class

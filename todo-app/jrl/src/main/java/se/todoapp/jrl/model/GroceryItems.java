@@ -1,8 +1,10 @@
 package se.todoapp.jrl.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class GroceryItems {
@@ -10,8 +12,9 @@ public class GroceryItems {
 	@Id
 	@GeneratedValue
 	private Long id;
-
-	private String groceryName;
+	
+	
+  	private String groceryName;
 
 	protected GroceryItems() {
 

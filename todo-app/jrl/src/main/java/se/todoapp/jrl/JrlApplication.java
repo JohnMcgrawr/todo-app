@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 import se.todoapp.jrl.model.GroceryItems;
+import se.todoapp.jrl.repository.GroceryItemsRepository;
 import se.todoapp.jrl.service.GroceryItemService;
 import se.todoapp.jrl.service.ServiceException;
 
@@ -16,19 +17,14 @@ public class JrlApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JrlApplication.class, args);
 	}
-	
+
 	@Bean
-	public CommandLineRunner run(ApplicationContext context) {
+	public CommandLineRunner run(ApplicationContext context) throws ServiceException {
 		return args -> {
 				
 				GroceryItemService groceryItemService = context.getBean(GroceryItemService.class);
-				
-				try {
-					groceryItemService.addGrocery(new GroceryItems("Junkfood2"));
-				} catch (ServiceException e) {
-					System.out.println(e.getMessage() + " " + e.getCause());
-				}
-				
+//				groceryItemService.addGrocery(new GroceryItems("item1"));
+//				groceryItemService.deleteByName(new GroceryItems("item1"));
  				System.out.println("Working...");
 
 		};
